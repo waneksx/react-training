@@ -1,6 +1,6 @@
 import React from 'react';
 
-const userOutput = (props) => {
+const userInput = (props) => {
     const labelStyle = {
         marginRight : '10px',
         color: 'Blue'
@@ -14,4 +14,4 @@ const userOutput = (props) => {
     )
 };
 
-export default userOutput;
+export default userInput;
