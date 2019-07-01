@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Route, NavLink, Switch, Redirect, BrowserRouter } from 'react-router-dom';
 
 import Courses from './containers/Courses/Courses';
-import Course from './containers/Course/Course';
 import Users from './containers/Users/Users';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 
@@ -28,7 +27,6 @@ class App extends Component {
               <Route path="/courses" component={Courses} />
               <Redirect from="/all-courses" to="/courses" />
               <Route component={ErrorPage} />
-              {/* <Redirect from="/" to="/error" /> */}
             </Switch>
           </main>
         </div>
